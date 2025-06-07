@@ -1,0 +1,635 @@
+["flightid",
+"hora_ref",
+"origem",
+"destino",
+"prev_troca_cabeceira",
+"troca_cabeceira_hora_anterior",
+"origem - destino",
+"temperature",
+"dew_point",
+"wind_direction",
+"wind_velocity",
+"wind_status",
+"wind_gust",
+"peak_wind",
+"wind_shift",
+"visibility",
+"runway_visual_range",
+"pressure",
+"present_weather",
+"few_cloud_height",
+"broken_cloud_height",
+"overcast_cloud_height",
+"scattered_cloud_height",
+"count_origem - destino_past_1h",
+"count_origem - destino_past_3h",
+"count_origem - destino_past_6h",
+"count_origem - destino_past_12h",
+"count_origem - destino_past_7d",
+"count_origem - destino_past_30d",
+"count_origem - destino_past_90d",
+"count_origem_past_1h",
+"count_origem_past_3h",
+"count_origem_past_6h",
+"count_origem_past_12h",
+"count_origem_past_7d",
+"count_origem_past_30d",
+"count_origem_past_90d",
+"count_destino_past_12h",
+"count_destino_past_7d",
+"count_destino_past_30d",
+"count_destino_past_90d",
+"mean_destino_over_temperature_past_1h",
+"max_destino_over_temperature_past_1h",
+"min_destino_over_temperature_past_1h",
+"mean_destino_over_temperature_past_3h",
+"max_destino_over_temperature_past_3h",
+"min_destino_over_temperature_past_3h",
+"mean_destino_over_temperature_past_6h",
+"max_destino_over_temperature_past_6h",
+"min_destino_over_temperature_past_6h",
+"mean_destino_over_temperature_past_12h",
+"max_destino_over_temperature_past_12h",
+"min_destino_over_temperature_past_12h",
+"mean_destino_over_dew_point_past_1h",
+"max_destino_over_dew_point_past_1h",
+"min_destino_over_dew_point_past_1h",
+"mean_destino_over_dew_point_past_3h",
+"max_destino_over_dew_point_past_3h",
+"min_destino_over_dew_point_past_3h",
+"mean_destino_over_dew_point_past_6h",
+"max_destino_over_dew_point_past_6h",
+"min_destino_over_dew_point_past_6h",
+"mean_destino_over_dew_point_past_12h",
+"max_destino_over_dew_point_past_12h",
+"min_destino_over_dew_point_past_12h",
+"mean_destino_over_wind_velocity_past_1h",
+"max_destino_over_wind_velocity_past_1h",
+"min_destino_over_wind_velocity_past_1h",
+"mean_destino_over_wind_velocity_past_3h",
+"max_destino_over_wind_velocity_past_3h",
+"min_destino_over_wind_velocity_past_3h",
+"mean_destino_over_wind_velocity_past_6h",
+"max_destino_over_wind_velocity_past_6h",
+"min_destino_over_wind_velocity_past_6h",
+"mean_destino_over_wind_velocity_past_12h",
+"max_destino_over_wind_velocity_past_12h",
+"min_destino_over_wind_velocity_past_12h",
+"mean_destino_over_visibility_past_1h",
+"max_destino_over_visibility_past_1h",
+"min_destino_over_visibility_past_1h",
+"mean_destino_over_visibility_past_3h",
+"max_destino_over_visibility_past_3h",
+"min_destino_over_visibility_past_3h",
+"mean_destino_over_visibility_past_6h",
+"max_destino_over_visibility_past_6h",
+"min_destino_over_visibility_past_6h",
+"mean_destino_over_visibility_past_12h",
+"max_destino_over_visibility_past_12h",
+"min_destino_over_visibility_past_12h",
+"mean_destino_over_pressure_past_1h",
+"max_destino_over_pressure_past_1h",
+"min_destino_over_pressure_past_1h",
+"mean_destino_over_pressure_past_3h",
+"max_destino_over_pressure_past_3h",
+"min_destino_over_pressure_past_3h",
+"mean_destino_over_pressure_past_6h",
+"max_destino_over_pressure_past_6h",
+"min_destino_over_pressure_past_6h",
+"mean_destino_over_pressure_past_12h",
+"max_destino_over_pressure_past_12h",
+"min_destino_over_pressure_past_12h",
+"count_distinct_destino_over_present_weather_past_1h",
+"count_distinct_destino_over_present_weather_past_3h",
+"count_distinct_destino_over_present_weather_past_6h",
+"count_distinct_destino_over_present_weather_past_12h",
+"mean_destino_over_few_cloud_height_past_1h",
+"max_destino_over_few_cloud_height_past_1h",
+"min_destino_over_few_cloud_height_past_1h",
+"mean_destino_over_few_cloud_height_past_3h",
+"max_destino_over_few_cloud_height_past_3h",
+"min_destino_over_few_cloud_height_past_3h",
+"mean_destino_over_few_cloud_height_past_6h",
+"max_destino_over_few_cloud_height_past_6h",
+"min_destino_over_few_cloud_height_past_6h",
+"mean_destino_over_few_cloud_height_past_12h",
+"max_destino_over_few_cloud_height_past_12h",
+"min_destino_over_few_cloud_height_past_12h",
+"mean_destino_over_broken_cloud_height_past_1h",
+"max_destino_over_broken_cloud_height_past_1h",
+"min_destino_over_broken_cloud_height_past_1h",
+"mean_destino_over_broken_cloud_height_past_3h",
+"max_destino_over_broken_cloud_height_past_3h",
+"min_destino_over_broken_cloud_height_past_3h",
+"mean_destino_over_broken_cloud_height_past_6h",
+"max_destino_over_broken_cloud_height_past_6h",
+"min_destino_over_broken_cloud_height_past_6h",
+"mean_destino_over_broken_cloud_height_past_12h",
+"max_destino_over_broken_cloud_height_past_12h",
+"min_destino_over_broken_cloud_height_past_12h",
+"mean_destino_over_overcast_cloud_height_past_1h",
+"max_destino_over_overcast_cloud_height_past_1h",
+"min_destino_over_overcast_cloud_height_past_1h",
+"mean_destino_over_overcast_cloud_height_past_3h",
+"max_destino_over_overcast_cloud_height_past_3h",
+"min_destino_over_overcast_cloud_height_past_3h",
+"mean_destino_over_overcast_cloud_height_past_6h",
+"max_destino_over_overcast_cloud_height_past_6h",
+"min_destino_over_overcast_cloud_height_past_6h",
+"mean_destino_over_overcast_cloud_height_past_12h",
+"max_destino_over_overcast_cloud_height_past_12h",
+"min_destino_over_overcast_cloud_height_past_12h",
+"mean_destino_over_scattered_cloud_height_past_1h",
+"max_destino_over_scattered_cloud_height_past_1h",
+"min_destino_over_scattered_cloud_height_past_1h",
+"mean_destino_over_scattered_cloud_height_past_3h",
+"max_destino_over_scattered_cloud_height_past_3h",
+"min_destino_over_scattered_cloud_height_past_3h",
+"mean_destino_over_scattered_cloud_height_past_6h",
+"max_destino_over_scattered_cloud_height_past_6h",
+"min_destino_over_scattered_cloud_height_past_6h",
+"mean_destino_over_scattered_cloud_height_past_12h",
+"max_destino_over_scattered_cloud_height_past_12h",
+"min_destino_over_scattered_cloud_height_past_12h",
+"count_destino_over_prev_troca_cabeceira_past_1h",
+"mean_destino_over_prev_troca_cabeceira_past_1h",
+"count_destino_over_prev_troca_cabeceira_past_3h",
+"mean_destino_over_prev_troca_cabeceira_past_3h",
+"count_destino_over_prev_troca_cabeceira_past_6h",
+"mean_destino_over_prev_troca_cabeceira_past_6h",
+"count_destino_over_prev_troca_cabeceira_past_12h",
+"mean_destino_over_prev_troca_cabeceira_past_12h",
+"origem - destino_SBBR_SBCT",
+"origem - destino_SBBR_SBFL",
+"origem - destino_SBBR_SBGL",
+"origem - destino_SBBR_SBGR",
+"origem - destino_SBBR_SBKP",
+"origem - destino_SBBR_SBPA",
+"origem - destino_SBBR_SBRF",
+"origem - destino_SBBR_SBRJ",
+"origem - destino_SBBR_SBSP",
+"origem - destino_SBBR_SBSV",
+"origem - destino_SBCF_SBBR",
+"origem - destino_SBCF_SBCT",
+"origem - destino_SBCF_SBFL",
+"origem - destino_SBCF_SBGL",
+"origem - destino_SBCF_SBGR",
+"origem - destino_SBCF_SBKP",
+"origem - destino_SBCF_SBPA",
+"origem - destino_SBCF_SBRF",
+"origem - destino_SBCF_SBRJ",
+"origem - destino_SBCF_SBSP",
+"origem - destino_SBCF_SBSV",
+"origem - destino_SBCT_SBBR",
+"origem - destino_SBCT_SBCF",
+"origem - destino_SBCT_SBFL",
+"origem - destino_SBCT_SBGL",
+"origem - destino_SBCT_SBGR",
+"origem - destino_SBCT_SBKP",
+"origem - destino_SBCT_SBPA",
+"origem - destino_SBCT_SBRJ",
+"origem - destino_SBCT_SBSP",
+"origem - destino_SBCT_SBSV",
+"origem - destino_SBFL_SBBR",
+"origem - destino_SBFL_SBCF",
+"origem - destino_SBFL_SBCT",
+"origem - destino_SBFL_SBGL",
+"origem - destino_SBFL_SBGR",
+"origem - destino_SBFL_SBKP",
+"origem - destino_SBFL_SBPA",
+"origem - destino_SBFL_SBRF",
+"origem - destino_SBFL_SBRJ",
+"origem - destino_SBFL_SBSP",
+"origem - destino_SBFL_SBSV",
+"origem - destino_SBGL_SBBR",
+"origem - destino_SBGL_SBCF",
+"origem - destino_SBGL_SBCT",
+"origem - destino_SBGL_SBFL",
+"origem - destino_SBGL_SBGR",
+"origem - destino_SBGL_SBKP",
+"origem - destino_SBGL_SBPA",
+"origem - destino_SBGL_SBRF",
+"origem - destino_SBGL_SBRJ",
+"origem - destino_SBGL_SBSP",
+"origem - destino_SBGL_SBSV",
+"origem - destino_SBGR_SBBR",
+"origem - destino_SBGR_SBCF",
+"origem - destino_SBGR_SBCT",
+"origem - destino_SBGR_SBFL",
+"origem - destino_SBGR_SBGL",
+"origem - destino_SBGR_SBKP",
+"origem - destino_SBGR_SBPA",
+"origem - destino_SBGR_SBRF",
+"origem - destino_SBGR_SBRJ",
+"origem - destino_SBGR_SBSP",
+"origem - destino_SBGR_SBSV",
+"origem - destino_SBKP_SBBR",
+"origem - destino_SBKP_SBCF",
+"origem - destino_SBKP_SBCT",
+"origem - destino_SBKP_SBFL",
+"origem - destino_SBKP_SBGL",
+"origem - destino_SBKP_SBGR",
+"origem - destino_SBKP_SBPA",
+"origem - destino_SBKP_SBRF",
+"origem - destino_SBKP_SBRJ",
+"origem - destino_SBKP_SBSP",
+"origem - destino_SBKP_SBSV",
+"origem - destino_SBPA_SBBR",
+"origem - destino_SBPA_SBCF",
+"origem - destino_SBPA_SBCT",
+"origem - destino_SBPA_SBFL",
+"origem - destino_SBPA_SBGL",
+"origem - destino_SBPA_SBGR",
+"origem - destino_SBPA_SBKP",
+"origem - destino_SBPA_SBRF",
+"origem - destino_SBPA_SBRJ",
+"origem - destino_SBPA_SBSP",
+"origem - destino_SBPA_SBSV",
+"origem - destino_SBRF_SBBR",
+"origem - destino_SBRF_SBCF",
+"origem - destino_SBRF_SBFL",
+"origem - destino_SBRF_SBGL",
+"origem - destino_SBRF_SBGR",
+"origem - destino_SBRF_SBKP",
+"origem - destino_SBRF_SBPA",
+"origem - destino_SBRF_SBRJ",
+"origem - destino_SBRF_SBSP",
+"origem - destino_SBRF_SBSV",
+"origem - destino_SBRJ_SBBR",
+"origem - destino_SBRJ_SBCF",
+"origem - destino_SBRJ_SBCT",
+"origem - destino_SBRJ_SBFL",
+"origem - destino_SBRJ_SBGL",
+"origem - destino_SBRJ_SBGR",
+"origem - destino_SBRJ_SBKP",
+"origem - destino_SBRJ_SBPA",
+"origem - destino_SBRJ_SBRF",
+"origem - destino_SBRJ_SBSP",
+"origem - destino_SBRJ_SBSV",
+"origem - destino_SBSP_SBBR",
+"origem - destino_SBSP_SBCF",
+"origem - destino_SBSP_SBCT",
+"origem - destino_SBSP_SBFL",
+"origem - destino_SBSP_SBGL",
+"origem - destino_SBSP_SBGR",
+"origem - destino_SBSP_SBKP",
+"origem - destino_SBSP_SBPA",
+"origem - destino_SBSP_SBRF",
+"origem - destino_SBSP_SBRJ",
+"origem - destino_SBSP_SBSV",
+"origem - destino_SBSV_SBBR",
+"origem - destino_SBSV_SBCF",
+"origem - destino_SBSV_SBCT",
+"origem - destino_SBSV_SBFL",
+"origem - destino_SBSV_SBGL",
+"origem - destino_SBSV_SBGR",
+"origem - destino_SBSV_SBKP",
+"origem - destino_SBSV_SBPA",
+"origem - destino_SBSV_SBRF",
+"origem - destino_SBSV_SBRJ",
+"origem - destino_SBSV_SBSP",
+destino_SBCF
+destino_SBCT
+destino_SBFL
+destino_SBGL
+destino_SBGR
+destino_SBKP
+destino_SBPA
+destino_SBRF
+destino_SBRJ
+destino_SBSP
+destino_SBSV
+wind_direction_E to S
+wind_direction_E to SE
+wind_direction_E to SSE
+wind_direction_E to SSW
+wind_direction_E to SW
+wind_direction_E to W
+wind_direction_E to WSW
+wind_direction_ENE
+wind_direction_ENE to ESE
+wind_direction_ENE to S
+wind_direction_ENE to SE
+wind_direction_ENE to SSE
+wind_direction_ENE to SSW
+wind_direction_ENE to SW
+wind_direction_ENE to WSW
+wind_direction_ESE
+wind_direction_ESE to S
+wind_direction_ESE to SSW
+wind_direction_ESE to SW
+wind_direction_ESE to W
+wind_direction_ESE to WNW
+wind_direction_ESE to WSW
+wind_direction_N
+wind_direction_N to E
+wind_direction_N to ENE
+wind_direction_N to ESE
+wind_direction_N to NE
+wind_direction_N to S
+wind_direction_N to SE
+wind_direction_N to SSE
+wind_direction_NE
+wind_direction_NE to E
+wind_direction_NE to ESE
+wind_direction_NE to S
+wind_direction_NE to SE
+wind_direction_NE to SSE
+wind_direction_NE to SSW
+wind_direction_NE to SW
+wind_direction_NNE
+wind_direction_NNE to E
+wind_direction_NNE to ESE
+wind_direction_NNE to S
+wind_direction_NNE to SE
+wind_direction_NNE to SSE
+wind_direction_NNE to SSW
+wind_direction_NNW
+wind_direction_NNW to E
+wind_direction_NNW to ENE
+wind_direction_NNW to ESE
+wind_direction_NNW to NE
+wind_direction_NNW to NNE
+wind_direction_NNW to SE
+wind_direction_NNW to SSE
+wind_direction_NW
+wind_direction_NW to E
+wind_direction_NW to ENE
+wind_direction_NW to ESE
+wind_direction_NW to N
+wind_direction_NW to NE
+wind_direction_NW to NNE
+wind_direction_NW to SE
+wind_direction_S
+wind_direction_S to N
+wind_direction_S to NNW
+wind_direction_S to NW
+wind_direction_S to SW
+wind_direction_S to W
+wind_direction_S to WNW
+wind_direction_S to WSW
+wind_direction_SE
+wind_direction_SE to NW
+wind_direction_SE to S
+wind_direction_SE to SSW
+wind_direction_SE to SW
+wind_direction_SE to W
+wind_direction_SE to WNW
+wind_direction_SE to WSW
+wind_direction_SSE
+wind_direction_SSE to NNW
+wind_direction_SSE to NW
+wind_direction_SSE to SSW
+wind_direction_SSE to SW
+wind_direction_SSE to W
+wind_direction_SSE to WNW
+wind_direction_SSE to WSW
+wind_direction_SSW
+wind_direction_SSW to N
+wind_direction_SSW to NNE
+wind_direction_SSW to NNW
+wind_direction_SSW to NW
+wind_direction_SSW to W
+wind_direction_SSW to WNW
+wind_direction_SW
+wind_direction_SW to N
+wind_direction_SW to NE
+wind_direction_SW to NNE
+wind_direction_SW to NNW
+wind_direction_SW to NW
+wind_direction_SW to W
+wind_direction_SW to WNW
+wind_direction_W
+wind_direction_W to E
+wind_direction_W to ENE
+wind_direction_W to N
+wind_direction_W to NE
+wind_direction_W to NNE
+wind_direction_W to NNW
+wind_direction_W to NW
+wind_direction_WNW
+wind_direction_WNW to E
+wind_direction_WNW to ENE
+wind_direction_WNW to ESE
+wind_direction_WNW to N
+wind_direction_WNW to NE
+wind_direction_WNW to NNE
+wind_direction_WSW
+wind_direction_WSW to ENE
+wind_direction_WSW to N
+wind_direction_WSW to NE
+wind_direction_WSW to NNE
+wind_direction_WSW to NNW
+wind_direction_WSW to NW
+wind_direction_WSW to WNW
+wind_direction_variable
+wind_direction_E to S
+wind_direction_E to SE
+wind_direction_E to SSE
+wind_direction_E to SSW
+wind_direction_E to SW
+wind_direction_E to W
+wind_direction_E to WSW
+wind_direction_ENE
+wind_direction_ENE to ESE
+wind_direction_ENE to S
+wind_direction_ENE to SE
+wind_direction_ENE to SSE
+wind_direction_ENE to SSW
+wind_direction_ENE to SW
+wind_direction_ENE to WSW
+wind_direction_ESE
+wind_direction_ESE to S
+wind_direction_ESE to SSW
+wind_direction_ESE to SW
+wind_direction_ESE to W
+wind_direction_ESE to WNW
+wind_direction_ESE to WSW
+wind_direction_N
+wind_direction_N to E
+wind_direction_N to ENE
+wind_direction_N to ESE
+wind_direction_N to NE
+wind_direction_N to S
+wind_direction_N to SE
+wind_direction_N to SSE
+wind_direction_NE
+wind_direction_NE to E
+wind_direction_NE to ESE
+wind_direction_NE to S
+wind_direction_NE to SE
+wind_direction_NE to SSE
+wind_direction_NE to SSW
+wind_direction_NE to SW
+wind_direction_NNE
+wind_direction_NNE to E
+wind_direction_NNE to ESE
+wind_direction_NNE to S
+wind_direction_NNE to SE
+wind_direction_NNE to SSE
+wind_direction_NNE to SSW
+wind_direction_NNW
+wind_direction_NNW to E
+wind_direction_NNW to ENE
+wind_direction_NNW to ESE
+wind_direction_NNW to NE
+wind_direction_NNW to NNE
+wind_direction_NNW to SE
+wind_direction_NNW to SSE
+wind_direction_NW
+wind_direction_NW to E
+wind_direction_NW to ENE
+wind_direction_NW to ESE
+wind_direction_NW to N
+wind_direction_NW to NE
+wind_direction_NW to NNE
+wind_direction_NW to SE
+wind_direction_S
+wind_direction_S to N
+wind_direction_S to NNW
+wind_direction_S to NW
+wind_direction_S to SW
+wind_direction_S to W
+wind_direction_S to WNW
+wind_direction_S to WSW
+wind_direction_SE
+wind_direction_SE to NW
+wind_direction_SE to S
+wind_direction_SE to SSW
+wind_direction_SE to SW
+wind_direction_SE to W
+wind_direction_SE to WNW
+wind_direction_SE to WSW
+wind_direction_SSE
+wind_direction_SSE to NNW
+wind_direction_SSE to NW
+wind_direction_SSE to SSW
+wind_direction_SSE to SW
+wind_direction_SSE to W
+wind_direction_SSE to WNW
+wind_direction_SSE to WSW
+wind_direction_SSW
+wind_direction_SSW to N
+wind_direction_SSW to NNE
+wind_direction_SSW to NNW
+wind_direction_SSW to NW
+wind_direction_SSW to W
+wind_direction_SSW to WNW
+wind_direction_SW
+wind_direction_SW to N
+wind_direction_SW to NE
+wind_direction_SW to NNE
+wind_direction_SW to NNW
+wind_direction_SW to NW
+wind_direction_SW to W
+wind_direction_SW to WNW
+wind_direction_W
+wind_direction_W to E
+wind_direction_W to ENE
+wind_direction_W to N
+wind_direction_W to NE
+wind_direction_W to NNE
+wind_direction_W to NNW
+wind_direction_W to NW
+wind_direction_WNW
+wind_direction_WNW to E
+wind_direction_WNW to ENE
+wind_direction_WNW to ESE
+wind_direction_WNW to N
+wind_direction_WNW to NE
+wind_direction_WNW to NNE
+wind_direction_WSW
+wind_direction_WSW to ENE
+wind_direction_WSW to N
+wind_direction_WSW to NE
+wind_direction_WSW to NNE
+wind_direction_WSW to NNW
+wind_direction_WSW to NW
+wind_direction_WSW to WNW
+wind_direction_variable
+wind_status_missing
+wind_status_missing
+present_weather_drizzle
+present_weather_drizzle and rain
+present_weather_drizzle; mist
+present_weather_fog
+present_weather_haze
+present_weather_heavy drizzle
+present_weather_heavy rain
+present_weather_heavy rain showers; mist
+present_weather_heavy rain showers; thunderstorm
+present_weather_heavy rain; fog
+present_weather_heavy rain; mist
+present_weather_heavy rain; mist; nearby thunderstorm
+present_weather_heavy rain; nearby thunderstorm
+present_weather_heavy thunderstorm with hail and rain
+present_weather_heavy thunderstorm with hail and rain; mist
+present_weather_heavy thunderstorm with rain
+present_weather_heavy thunderstorm with rain; haze
+present_weather_heavy thunderstorm with rain; mist
+present_weather_light drizzle
+present_weather_light drizzle and rain
+present_weather_light drizzle and rain; mist
+present_weather_light drizzle; fog
+present_weather_light drizzle; haze
+present_weather_light drizzle; light rain
+present_weather_light drizzle; mist
+present_weather_light drizzle; patches of fog
+present_weather_light freezing drizzle; mist
+present_weather_light rain
+present_weather_light rain and drizzle
+present_weather_light rain and drizzle; mist
+present_weather_light rain showers
+present_weather_light rain showers; mist
+present_weather_light rain showers; nearby thunderstorm
+present_weather_light rain showers; thunderstorm
+present_weather_light rain; fog
+present_weather_light rain; haze
+present_weather_light rain; mist
+present_weather_light rain; mist; nearby thunderstorm
+present_weather_light rain; mist; patches of fog
+present_weather_light rain; nearby showers
+present_weather_light rain; nearby thunderstorm
+present_weather_light rain; patches of fog
+present_weather_light rain; thunderstorm
+present_weather_light thunderstorm with rain
+present_weather_light thunderstorm with rain; haze
+present_weather_light thunderstorm with rain; mist
+present_weather_light thunderstorm with rain; nearby showers
+present_weather_light thunderstorm with rain; patches of fog
+present_weather_mist
+present_weather_mist; nearby fog
+present_weather_mist; nearby showers
+present_weather_mist; nearby showers; nearby thunderstorm
+present_weather_mist; nearby thunderstorm
+present_weather_mist; partial fog
+present_weather_mist; patches of fog
+present_weather_mist; shallow fog
+present_weather_mist; thunderstorm
+present_weather_nearby fog
+present_weather_nearby showers
+present_weather_nearby showers; nearby thunderstorm
+present_weather_nearby thunderstorm
+present_weather_nearby thunderstorm; nearby showers
+present_weather_partial fog
+present_weather_patches of fog
+present_weather_patches of fog; mist
+present_weather_patches of fog; nearby showers
+present_weather_patches of fog; nearby thunderstorm
+present_weather_rain
+present_weather_rain and drizzle
+present_weather_rain showers
+present_weather_rain showers; mist
+present_weather_rain showers; nearby thunderstorm
+present_weather_rain showers; thunderstorm
+present_weather_rain; haze
+present_weather_rain; mist
+present_weather_rain; nearby thunderstorm
+present_weather_shallow fog
+present_weather_thunderstorm
+present_weather_thunderstorm with hail
+present_weather_thunderstorm with rain
+present_weather_thunderstorm with rain; haze
+present_weather_thunderstorm with rain; mist
+present_weather_thunderstorm; nearby showers
+]
