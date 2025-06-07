@@ -55,12 +55,12 @@ def get_metar_features(metar, name=""):
         features[name+'wind_direction'] = direction
         features[name+'wind_velocity'] = velocity
         features[name+'wind_status'] = status
-        features["wind_gust"] = wind_gust
+        features[name+'wind_gust'] = wind_gust
     else:
         features[name+'wind_direction'] = None
         features[name+'wind_velocity'] = None
         features[name+'wind_status'] = None
-        features["wind_gust"] = None
+        features[name+'wind_gust'] = None
 
     # Append peak wind
     features[name+'peak_wind'] = metar.peak_wind() if metar.peak_wind() not in [None, "missing"] else None
