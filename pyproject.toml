@@ -1,0 +1,4 @@
+[tool.kedro]
+package_name = "ita_poxa_eef"
+project_name = "ita_poxa_eef"
+kedro_init_version = "0.18.14"

@@ -1,0 +1,5 @@
+catboost_info/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/06_models/
